@@ -18,13 +18,19 @@ export default{
     div{
         width: 50%;
         float: left;
-        
+       
     img{
             
             width: 98%;
             margin-left: 1%;
             margin-top: 1%;
         }
+    }
+    .clearfix::before,
+    .clearfix::after{
+        content: '';
+        display: table;
+        clear: both;
     }
 }
 
